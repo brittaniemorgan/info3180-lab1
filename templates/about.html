@@ -1,11 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>My Website About</title>
+    <title>My Website - About</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename = 'css/app.css')}}" />
 </head>
+
 <body>
-    <h1>Brittanie Morgan</h1>
-    <p>I like running</p>
+    <div id='heading'>
+        <img src="{{ url_for('static', filename = 'website_img.jpg')}}" alt="Image of Brittanie Morgan">
+        <h1>Brittanie Morgan</h1>
+    </div>
+    <div id="about">
+        <p>My name is Brittanie Morgan and I am a second year student at the University of the West Indies, Mona. My
+            favorite colour is teal and when I am not coding, I enjoy baking.</p>
+    </div>
+
 </body>
+
 </html>
