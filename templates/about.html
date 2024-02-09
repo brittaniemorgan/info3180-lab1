@@ -1,22 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <title>My Website - About</title>
     <link rel="stylesheet" href="{{ url_for('static', filename = 'css/app.css')}}" />
 </head>
-
 <body>
-    <div id='heading'>
-        <img src="{{ url_for('static', filename = 'website_img.jpg')}}" alt="Image of Brittanie Morgan">
-        <h1>Brittanie Morgan</h1>
-    </div>
-    <div id="about">
-        <p>My name is Brittanie Morgan and I am a second year student at the University of the West Indies, Mona. My
-            favorite colour is teal and when I am not coding, I enjoy baking.</p>
-    </div>
-
+    <img src="{{ url_for('static', filename = 'website_img.jpg')}}" alt="Image of Brittanie Morgan">
+    <hr><h1>Brittanie Morgan</h1><hr>
+    <p> I am a final year university student pursuing a Bachelor of Science in Software Engineering. I have a great
+        passion for technology and whether it's web development or machine learning, I'm always excited to dive in
+        and make things happen. Outside of software development, you can find me baking, watching televison series,
+        and practicing Spanish.
+    </p>
 </body>
-
 </html>
